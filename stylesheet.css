@@ -9,6 +9,17 @@
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family: 'Reglo';
+    src: url('fonts/reglo-bold-webfont.eot');
+    src: url('fonts/reglo-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/reglo-bold-webfont.woff') format('woff'),
+         url('fonts/reglo-bold-webfont.ttf') format('truetype'),
+         url('fonts/reglo-bold-webfont.svg#notcouriersansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
 
 /* Fixes the initial browser’s style */
 * {
@@ -52,6 +63,8 @@ body {
 }
 .more-info {
     display: none;
+    text-transform: capitalize;
+    font-size: 14px;
 }
 .title:hover .more-info {
     display: block;
