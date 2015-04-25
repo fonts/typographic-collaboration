@@ -204,34 +204,34 @@ Does the font invite new versions/styles/alternates?<br>
             <div class="one-wide one-high case empty">
                 <div class="title"></div>
             </div>
-            <div class="five-wide four-high case">
-                <h2>Appendix: Font Formats</h2>
-
-                <table>
+            <div class="eight-wide four-high case">
+                <div class="title">Appendix: Font Formats</div>
+                <div class="content" style="overflow: scroll">
+                <table style="font-size: 11px;">
                     <tr>
                         <td>&nbsp;</td>
-                        <td>Cubic Béziers</td>
-                        <td>Quadratic Béziers</td>
-                        <td>Plain-text</td>
-                        <td>Binary</td>
-                        <td>Remarks</td>
+                        <td style="text-align: center">Cubic Béziers</td>
+                        <td style="text-align: center">Quadratic Béziers</td>
+                        <td style="text-align: center">Plain-<br>text</td>
+                        <td style="text-align: center">Binary</td>
+                        <td style="text-align: center">Remarks</td>
                     </tr>
                     <tr>
                         <td>ttf</td>
                         <td>&nbsp;</td>
-                        <td>✓<td>
+                        <td style="text-align: center">✓</td>
                         <td>&nbsp;</td>
-                        <td>✓</td>
-                        <td>TrueType fonts provide a different, more detailed format for describing hints: rules for how to fit the vector drawing to the grid of the screen. This is especially important for older versions of Windows.<br/><br/>
+                        <td style="text-align: center">✓</td>
+                        <td style="width: 400px;">TrueType fonts provide a different, more detailed format for describing hints: rules for how to fit the vector drawing to the grid of the screen. This is especially important for older versions of Windows.<br/><br/>
                 TrueType fonts describe curves in a slightly different way from PostScript fonts: all control points are shared by two on-curve points, whereas each on-curve point has two independent control points. This makes for a different style of drawing that many designers find less intuitive. A cubic drawing can be losslesly converted into a quadratic drawing.<br/><br/>
                 Generally, only fonts that really exploit the possibilities of TrueType (i.e., hinting) are developed directly in TrueType curves. For many other fonts, the TrueType will be generated from PostScript type curves. In this case, it does not make sense to work from the TTF file.</td>
                     </tr>
                     <tr>
-                        <td>.pfb, .pfa, .pfm, .afm</td>
-                        <td>✓</td>
-                        <td>&nbsp;<td>
+                        <td>.pfb<br/>.pfa<br/>.pfm<br/>.afm</td>
+                        <td style="text-align: center">✓</td>
                         <td>&nbsp;</td>
-                        <td>✓</td>
+                        <td>&nbsp;</td>
+                        <td style="text-align: center">✓</td>
                         <td>PostScript fonts are the O.G.’s of digital type design, filling most of the initial 1990ies catalogs of FontFont, Adobe and Emigre.<br/><br/>
                 Contrary to their TrueType counterparts they were originally designed for print. The hinting system used is less advanced but the increasing resolution in output devices is making PostScript based fonts viable for screen display.<br/><br/>
                 The afore-mentioned foundries have today converted most of their fonts to OTF, but in these cases the OTF still uses the PostScript technology under the hood.<br/><br/>
@@ -240,47 +240,48 @@ Does the font invite new versions/styles/alternates?<br>
                     </tr>
                     <tr>
                         <td>otf</td>
-                        <td>✓</td>
-                        <td>✓<td>
+                        <td style="text-align: center">✓</td>
+                        <td style="text-align: center">✓</td>
                         <td>&nbsp;</td>
-                        <td>✓</td>
+                        <td style="text-align: center">✓</td>
                         <td>OTF exists in two flavours: with PostScript style cubic curves, or with TrueType style quadratic curves. Whether the OTF file is a good point of departure depends on the factors descriped for pfd and ttf files.</td>
                     </tr>
                     <tr>
                         <td>ufo</td>
-                        <td>✓</td>
-                        <td>✓<td>
+                        <td style="text-align: center">✓</td>
+                        <td style="text-align: center">✓</td>
                         <td>&nbsp;</td>
-                        <td>✓</td>
+                        <td style="text-align: center">✓</td>
                         <td>UFO is a file format developed for interchanging font data between different programs. Among its advantages is that it is ‘plain-text’: the codes are visible when you open it with a simple text-editor. This makes the codes accessible. It also helps version control systems to easily show what has changed in between different versions of a file.</td>
                     </tr>
                     <tr>
-                        <td>sfd<td>
-                        <td>✓</td>
-                        <td>✓<td>
+                        <td>sfd</td>
+                        <td style="text-align: center">✓</td>
+                        <td style="text-align: center">✓</td>
                         <td>&nbsp;</td>
-                        <td>✓</td>
+                        <td style="text-align: center">✓</td>
                         <td>A workflow around FontForge sfd files requires contributors to use this program; still because the program is Free and Open Source and runs on all major platforms, this is a better option than a Fontlab vfb based workflow.</td>
                     </tr>
                     <tr>
-                        <td>sfdir<td>
-                        <td>✓</td>
-                        <td>✓<td>
+                        <td>sfdir</td>
+                        <td style="text-align: center">✓</td>
+                        <td style="text-align: center">✓</td>
                         <td>&nbsp;</td>
-                        <td>✓</td>
+                        <td style="text-align: center">✓</td>
                         <td>SFDIR is the plain text version of the sfd format. Plain text has a number of advantages as detailed in the UFO entry.</td>
                     </tr>
                     <tr>
-                        <td>vfb<td>
-                        <td>✓</td>
-                        <td>✓<td>
+                        <td>vfb</td>
+                        <td style="text-align: center">✓</td>
+                        <td style="text-align: center">✓</td>
                         <td>&nbsp;</td>
-                        <td>✓</td>
+                        <td style="text-align: center">✓</td>
                         <td>Sfd is the proprietary, binary font format used by Fontlab. UFO was developed as an alternative.</td>
                     </tr>
                 </table>
 
                 <p>The basis of open-ended typographic collaboration is that we can modify a typeface, and potentially share these modifications with the original author. For that, it is important that we start from the right kind of font file. The analogy with an image: when working on a Photoshop file (or a Gimp file!) one looses the information contained in the layers when exporting it as a PNG file. When saving as a JPEG file, the visual quality even degrades.</p>
+            </div>
             </div>
             
         </div> <!-- END CONTAINER -->

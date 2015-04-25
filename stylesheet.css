@@ -32,7 +32,6 @@ body {
     display: block;
     border: 1px solid black;
     float: left;
-    overflow: hidden;
     background-color: white;
 }
 .empty {
@@ -65,6 +64,18 @@ body {
 .content {
     font-size: 14px;
     padding: 10px;
+    overflow: hidden;
+    height: 95%;
+}
+table {
+    margin-bottom: 20px;
+}
+td {
+    min-width: 60px;
+    border-bottom: 1px solid black;
+}
+tr {
+    border-bottom: 1px solid black;
 }
 
 .one-wide {
@@ -81,6 +92,12 @@ body {
 }
 .five-wide {
     width: 500px;
+}
+.seven-wide {
+    width: 700px;
+}
+.eight-wide {
+    width: 800px;
 }
 .one-high {
     height: 150px;
