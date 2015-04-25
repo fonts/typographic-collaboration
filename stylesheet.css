@@ -73,6 +73,8 @@ table {
 td {
     min-width: 60px;
     border-bottom: 1px solid black;
+    padding-top: 5px;
+    padding-bottom: 8px;
 }
 tr {
     border-bottom: 1px solid black;
@@ -110,6 +112,12 @@ tr {
 }
 .four-high {
     height: 600px;
+}
+.six-high {
+    height: 900px;
+}
+.seven-high {
+    height: 1050px;
 }
 
 /*only on the screen*/
