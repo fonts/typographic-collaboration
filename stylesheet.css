@@ -207,3 +207,25 @@ tr {
 @media screen and (max-width: 480px) {
   /*add more screen style specifications here*/
 }
+
+/* slideshow */
+.hidden {
+  display: none;
+}
+.gallery {
+}
+.image-gallery img {
+    max-height: 480px;
+    width: auto;
+}
+.gallery-buttons {
+  cursor: pointer;
+}
+.gallery-buttons .previous {
+  float: left;
+  margin-right: 30px;
+}
+.gallery-buttons .next {
+  float: left;
+  margin-right: 10px;
+}
