@@ -23,3 +23,22 @@ $('.previous').click(function () {
         $previous.removeClass("hidden");
     }
 });
+
+// HOVER
+$('.MHTCLL').hover(function () {
+    $('.MHTCLL').css('color', 'rgb(0, 126, 97)');
+}, function() {
+    $('.MHTCLL').css('color', 'black');
+});
+$('.MBSKJE').hover(function () {
+    $('.MBSKJE').css('color', 'rgb(0, 126, 97)');
+}, function() {
+    $('.MBSKJE').css('color', 'black');
+});
+$('.DTCFMK').hover(function () {
+    $('.DTCFMK').css('color', 'rgb(0, 126, 97)');
+}, function() {
+    $('.DTCFMK').css('color', 'black');
+});
+
+$('a').smoothScroll();
