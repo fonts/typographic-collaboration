@@ -4,6 +4,12 @@ $container.masonry({
     columnWidth: 100,
     itemSelector: '.case'
 });
+var $container = $('.container');
+// initialize
+$container.masonry({
+    columnWidth: 100,
+    itemSelector: '.case'
+});
 
 // GALLERY-BUTTON
 // cf http://jsfiddle.net/lfurter/QJftM/
