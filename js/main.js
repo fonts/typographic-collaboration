@@ -26,19 +26,24 @@ $('.previous').click(function () {
 
 // HOVER
 $('.MHTCLL').hover(function () {
-    $('.MHTCLL').css('color', 'rgb(0, 126, 97)');
+    $('.MHTCLL .title').css('background-color', 'rgb(0, 126, 97)');
 }, function() {
-    $('.MHTCLL').css('color', 'black');
+    $('.MHTCLL .title').css('background-color', 'white');
 });
 $('.MBSKJE').hover(function () {
-    $('.MBSKJE').css('color', 'rgb(0, 126, 97)');
+    $('.MBSKJE .title').css('background-color', 'rgb(0, 126, 97)');
 }, function() {
-    $('.MBSKJE').css('color', 'black');
+    $('.MBSKJE .title').css('background-color', 'white');
 });
 $('.DTCFMK').hover(function () {
-    $('.DTCFMK').css('color', 'rgb(0, 126, 97)');
+    $('.DTCFMK .title').css('background-color', 'rgb(0, 126, 97)');
 }, function() {
-    $('.DTCFMK').css('color', 'black');
+    $('.DTCFMK .title').css('background-color', 'white');
+});
+$('.CDRZHS').hover(function () {
+    $('.CDRZHS .title').css('background-color', 'rgb(0, 126, 97)');
+}, function() {
+    $('.CDRZHS .title').css('background-color', 'white');
 });
 
 $('a').smoothScroll();
